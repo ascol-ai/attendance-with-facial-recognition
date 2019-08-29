@@ -1,4 +1,4 @@
-# ATtendance with facial Rfdecognition 
+# ATtendance with facial Recognition 
 
 ## Abstract
 Automatic face recognition (AFR) technologies have seen dramatic improvements in performance over the past years, and such systems are now widely used for security and commercial applications. An automated system for human face recognition in a real time background for a college to mark the attendance of their students. So Smart Attendance using Real Time Face Recognition is a real world solution which comes with day to day activities of handling students and employees. The task is very difficult as the real time background subtraction in an image is still a challenge.To detect real time human face are used and a simple fast Principal Component Analysis has used to recognize the faces detected with a high accuracy rate. The matched face is used to mark attendance of the students.Our system maintains the attendance records of employees automatically.
@@ -13,4 +13,4 @@ Face recognition consists of two steps, in first step faces are detected in the 
 
 
 # In order to run this project on your machine follow: 
-1. Clone this project with the help of git clone <link of this repo>.
+1. Clone this project with the help of git clone < link of this repo >.
