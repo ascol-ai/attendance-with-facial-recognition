@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attendance with facial Recognition</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" media="all" />
+    <link href="assets/fonts/css/all.css" rel="stylesheet" />
+    <script defer src="assets/fonts/js/all.js"></script>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- capture image with webcam -->
+    <script src="assets/js/take_image.js"></script>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- <header>
+     
+    </header> -->
+    <main class="container">
+      <nav class="split left">
+        <ul class="nav  nav-tabs flex-column" role="tablist">
+          <li class="nav-item ">
+            <a class="nav-link active" data-toggle="tab" href="#take-images">
+              <i class="das-icons fas fa-camera-retro fa-2x"></i>Take Images</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#train-images"
+              ><i class="das-icons  fas fa-train fa-2x"></i>Train images</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#automatic-attendance"
+              ><i class="das-icons fas fa-robot fa-2x"></i>Automatic
+              Attendance</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#manual-attendance"
+              ><i class="das-icons far fa-edit fa-2x"></i>Manually Fill
+              Attendance</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#registered-students"
+              ><i class="das-icons far fa-eye fa-2x"></i>Check Registered
+              Students</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="split right">
+        <!-- <h1><i class="das-icons fas fa-tasks"></i>Report</h1> -->
+
+        <div class="tab-content">
+          <div
+            class="tab-pane fade show active"
+            id="take-images"
+            role="tabpanel"
+          >
+            <h1>Take Images</h1>
+            <div class="camera">
+              <video id="video">Video stream not available.</video>
+              <button id="startbutton">
+                Take photo
+              </button>
+            </div>
+
+            <canvas id="canvas"> </canvas>
+            <div class="output">
+              <img
+                id="photo"
+                alt="The screen capture will appear in this box."
+              />
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="train-images" role="tabpanel">
+            <h1>Train Images</h1>
+          </div>
+          <div class="tab-pane fade" id="automatic-attendance" role="tabpanel">
+            <h1>Automatice attendance</h1>
+          </div>
+          <div class="tab-pane fade" id="manual-attendance" role="tabpanel">
+            <h1>Manually fill attendance</h1>
+          </div>
+          <div class="tab-pane fade" id="registered-students" role="tabpanel">
+            <h1>Check registered Students</h1>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
